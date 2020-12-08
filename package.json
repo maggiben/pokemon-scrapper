@@ -1,0 +1,29 @@
+{
+  "name": "pokemon-scrapper",
+  "version": "1.0.0",
+  "description": "Pokemon Image Scrapper",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maggiben/pokemon-scrapper.git"
+  },
+  "author": "Benjamin Maggi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maggiben/pokemon-scrapper/issues"
+  },
+  "homepage": "https://github.com/maggiben/pokemon-scrapper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "jsdom": "^16.4.0",
+    "request": "^2.88.2",
+    "requestretry": "^4.1.2"
+  }
+}
